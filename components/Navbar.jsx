@@ -6,7 +6,7 @@ import Button from "./Button";
 
 const Navbar = () => {
   return (
-    <nav className=" py-5 flexBetween max-container padding-container">
+    <nav className="py-5 flexBetween max-container padding-container">
       <Link href="/">
         <Image src={hilinkLogo} alt="logo" width={74} height={29} />
       </Link>
@@ -35,7 +35,7 @@ const Navbar = () => {
         width={32}
         height={32}
         alt="menu"
-        className="inline-block lg:hidden"
+        className="inline-block lg:hidden z-20"
       />
     </nav>
   );
